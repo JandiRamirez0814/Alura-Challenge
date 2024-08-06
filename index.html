@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header__content">
+            <img src="./Images/app_icon.jpg" alt="Icono de la app" class="header__icon">
+            <h1>Encriptador</h1> 
+        </div>
+    </header>
+    <div class="container__readapp">
+        <main>
+            <form>
+                <textarea id="write-textbox"  class="form__textbox" placeholder="Ingresa el texto aquí"></textarea>
+                <div class="form__warning">
+                    <img src="./Images/Icons/warning_icon.png" alt="Icono de advertencia" class="form__icon">
+                    <p>Solo letras minusculas y sin acentos.</p>
+                </div>
+                <div class="form__buttons">
+                    <button type= "button" class="form__button1" onclick="btEncriptar()">Encriptar</button>
+                    <button type= "button" class="form__button2" onclick="btDesencriptar()">Desencriptar</button>
+                </div>
+            </form>
+        </main>
+        <aside>
+            <div class="aside__content">
+                <div class="textarea-container">
+                    <textarea id="copy-textbox" class="aside__textbox" placeholder="¡Ningún mensaje fue encontrado!&#10;Ingrese el texto que desees encriptar o desencriptar."></textarea>
+                    <button type="button" class="form__button1 copy-button" onclick="btCopiar()">Copiar</button>
+                </div>
+            </div>
+        </aside>        
+    </div>
+    <footer>
+        <div class="footer__content">
+            <p>Desarrollado por <span class="text__resalt">Jandi Ramirez</span></p>
+            <a class="button__content" href="https://github.com/JandiRamirez0814">
+                <img class="form__icon" src="./Images/Icons/github_3291695.png" alt="icono de GitHub"></a>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+</body>
+</html>
