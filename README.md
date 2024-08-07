@@ -44,6 +44,14 @@ La página web tiene como objetivo presentar un encriptador de texto, el cual de
 - **Imágenes:** Recursos gráficos utilizados en la página, como íconos y capturas de pantalla.
 - **Assets:** Iconos tomados de paginas como Flaticon y Freepik.
 
+## Responsividad
+
+Para asegurar la correcta visualización de la pagina en diferentes tipos de pantalla se aplicaron **_media queries_** para dispositivos más pequeños como tablets y telefonos moviles.
+
+![Cellphone](https://i.imgur.com/zdiB9y9.png)
+
+![Tablet](https://i.imgur.com/m5LDyOi.png)
+
 ## Instrucciones para Ejecutar el Proyecto
 
 1. Clona el repositorio en tu máquina local.
